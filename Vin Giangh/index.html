@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Vinh Giang</title>
+</head>
+<body>
+    <header>
+        <div class="first-s">
+            <h1 class="header-h"><a href="#">VINH GIANG</a></h1>
+        </div>
+        <div class="second-s">
+            <nav>
+                <ul class="nav-links">
+                    <li class="hideonm"><a href="#homepage">Home</a></li>
+                    <li class="hideonm"><a href="#formSection">Contact</a></li>
+                    <li class="hideonm"><a href="#vinh-section">About</a></li>
+                    
+                </ul>
+                <ul class="nav-links show">
+                    <li><a href="#" onclick=hideSidebar()>✖</a></li>
+                    <li><a href="#homepage">Home</a></li>
+                    <li><a href="#formSection">Contact</a></li>
+                    <li><a href="#vinh-section">About</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-button">
+            <button class="b-1">About</button>
+            <button class="b-2">Sign Up</button>
+        </div>
+         <a onclick=showSidebar() href="#" class="icon">☰</a>
+    </header>
+    <section class="hero" id="homepage">
+        <div class="hero-left">
+            <h1>Unlock <span class="high">Your Voice </span>Lead, Connect, Succeed <span class="high2">Like Never Before</span></h1>
+        </div>
+        <div class="hero-right">
+            <h1>Imagine walking into any room and owning it. Ready to master the skills that’ll make people listen, respect, and remember you? It’s time to elevate your communication game.</h1>
+        </div>
+    </section>
+
+
+    <section class="vinh-section" id="vinh-section">
+        <section class="company-slider">
+            <div class="slider-wrapper">
+              <!-- Duplicate the company logos for smooth infinite scrolling -->
+              <div class="slider-track">
+                <div class="company"><img src="./img/company's logo/pfizer.png "  alt=""></div>
+                <div class="company"><img src="./img/company's logo/download (1).png" alt=""></div>
+                <div class="company"><img src="./img/company's logo/c-bank.png" alt=""></div>
+                <div class="company"><img src="./img/company's logo/e-org1.png" alt=""></div>
+                <div class="company"><img src="./img/company's logo/download (3).png" alt=""></div>
+                <div class="company"><img src="./img/company's logo/siemens.png" alt=""></div>
+                <div class="company"><img src="./img/company's logo/hscbc.png"  alt=""></div>
+                <div class="company"><img src="./img/company's logo/download (5).png" alt=""></div>
+                <div class="company"><img src="./img/company's logo/MDRT.png" alt=""></div>
+                <div class="company"><img src="./img/company's logo/cuna.png" alt=""></div>
+                <div class="company"><img src="./img/company's logo/facebook.png" alt=""></div>
+                <div class="company">IBM</div>
+                
+                <!-- Duplicate for seamless infinite scrolling -->
+                <div class="company">Google</div>
+                <div class="company">Apple</div>
+                <div class="company">Microsoft</div>
+                <div class="company">Amazon</div>
+                <div class="company">Facebook</div>
+                <div class="company">Netflix</div>
+                <div class="company">Tesla</div>
+                <div class="company">Adobe</div>
+                <div class="company">Oracle</div>
+                <div class="company">Intel</div>
+                <div class="company">Samsung</div>
+                <div class="company">IBM</div>
+              </div>
+            </div>
+          </section>
+          <div class="about-content">
+            <div class="About-right">
+                <div class="headline">
+                    <h1>Who is <span class="nowrap">Vinh Giang?</span></h1>
+                    <div class="space">
+                        <h2 class="typing-effect">
+                        <span class="typed-text"></span>
+                    </div>
+                    </h2>
+                </div>
+                <div class="paragraph">
+                    <p>
+                    Vinh Giang is an inspiring keynote speaker, renowned communication skills coach, and skilled magician.
+                    With a passion for helping individuals master the art of influence, he empowers people worldwide.
+                    </p>
+                    <button class="interactive-button">Level up your communication</button>
+                </div>
+            </div>
+            
+            <div class="about-left">
+                <img src="./img/vinh giang.jfif" alt="">
+            </div>
+        </div>   
+    </section>
+
+
+    <section class="welcome-section" id="welcomepage">
+        <div class="container">
+            <h1 class="main-title">
+                Level Up Your <span class="highlight">Communication Skills</span>
+            </h1>
+
+            <div class="grid-container">
+                <!-- Main Video Card -->
+                <div class="video-card">
+                    <div class="video-container">
+                        <iframe 
+                            width="100%" 
+                            height="100%" 
+                            src="https://www.youtube.com/embed/rs-jiWRGzpA" 
+                            title="YouTube video player" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen
+                        ></iframe>
+                    </div>
+                    <div class="video-content">
+                        <h2>Watch the Trailer</h2>
+                        <p>Get a sneak peek of our transformative communication skills program.</p>
+                    </div>
+                </div>
+
+                <!-- Welcome Message -->
+                <div class="welcome-message">
+                    <h2>Welcome!</h2>
+                    <p>
+                        Embark on your journey to communication mastery. Here, you'll unlock the power of effective speaking and develop an influential presence that will transform your personal and professional life.
+                    </p>
+                    <p>
+                        Ready to begin? Explore our free resources and take the first step towards becoming a confident, impactful communicator.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Feature Grid -->
+            <div class="feature-grid">
+                <div class="feature-card" data-index="0">
+                    <h3>Break Communication Myths</h3>
+                    <p>Bust the 4 biggest myths holding you back</p>
+                    <div class="underline"></div>
+                </div>
+                <div class="feature-card" data-index="1">
+                    <h3>Master Influence</h3>
+                    <p>Wield influence without feeling smarmy</p>
+                    <div class="underline"></div>
+                </div>
+                <div class="feature-card last" data-index="2">
+                    <h3>Proven Method</h3>
+                    <p>Get the 3-step practice method for rapid progress</p>
+                    <div class="underline"></div>
+                </div>
+            </div>
+
+            <!-- Call to Action -->
+            <div class="cta-section">
+                <p>Ready to transform your communication skills?</p>
+                <button class="cta-button">Start Free Training Now</button>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="what-i-do" id="what-i-dopage">
+        <div class="container">
+            <h2 class="title">WHAT  I DO</h2>
+            
+            <div class="services">
+                <div class="service" data-index="0">
+                    <div class="service-image">
+                        <img src="./img/front card images for 3rd section/Screenshot (230).png" alt="International Keynote Speaker">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                        </div>
+                        <h3>INTERNATIONAL KEYNOTE SPEAKER</h3>
+                        <p>Inspiring over 100,000 people annually at 80 global events</p>
+                        <button class="learn-more">Learn More <span class="arrow">→</span></button>
+                    </div>
+                </div>
+                
+                <div class="service" data-index="1">
+                    <div class="service-image">
+                        <img src="./img/front card images for 3rd section/Screenshot (231).png" alt="STAGE Virtual Masterclass">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"></polygon><rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect></svg>
+                        </div>
+                        <h3>STAGE Virtual Masterclass</h3>
+                        <p>An immersive series of online classes teaching advanced communication</p>
+                        <button class="learn-more">Learn More <span class="arrow">→</span></button>
+                    </div>
+                </div>
+                
+                <div class="service" data-index="2">
+                    <div class="service-image">
+                        <img src="./img/front card images for 3rd section/Screenshot (232).png" alt="STAGE Academy">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+                        </div>
+                        <h3>STAGE Academy</h3>
+                        <p>7 modules, 50+ videos, 10+ hours of educational content</p>
+                        <button class="learn-more">Learn More <span class="arrow">→</span></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta">
+                <p>Ready to transform your communication skills or have me speak at your next event? Let's connect and make it happen.</p>
+                <button class="contact-now">Contact Now</button>
+            </div>
+        </div>
+    </section>
+    <div class="modal" id="serviceModal">
+        <div class="modal-content">
+            <button class="close-modal">&times;</button>
+            <img src="" alt="" class="modal-image">
+            <h3 class="modal-title"></h3>
+            <p class="modal-description"></p>
+            <button class="get-started">Get Started</button>
+        </div>
+    </div>
+ 
+    <section class="form-section" id="formSection">
+        <div class="form-container">
+            <div class="form-header">
+                <h2>Book Vinh for your conference today!</h2>
+                <p>Transform your next event with world-class communication expertise</p>
+            </div>
+    
+            <form id="contactForm" class="animated-form">
+                <div class="form-group">
+                    <div class="input-group">
+                        <input type="text" id="firstName" required>
+                        <label for="firstName">First Name</label>
+                        <div class="glow-line"></div>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="lastName" required>
+                        <label for="lastName">Last Name</label>
+                        <div class="glow-line"></div>
+                    </div>
+                </div>
+    
+                <div class="input-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Email Address</label>
+                    <div class="glow-line"></div>
+                </div>
+    
+                <div class="input-group">
+                    <input type="tel" id="phone" required>
+                    <label for="phone">Phone Number</label>
+                    <div class="glow-line"></div>
+                </div>
+    
+                <div class="form-group">
+                    <div class="input-group">
+                        <input type="text" id="country" required>
+                        <label for="country">Country</label>
+                        <div class="glow-line"></div>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="state" required>
+                        <label for="state">State</label>
+                        <div class="glow-line"></div>
+                    </div>
+                </div>
+    
+                <div class="input-group">
+                    <textarea id="message" required></textarea>
+                    <label for="message">Message</label>
+                    <div class="glow-line"></div>
+                </div>
+    
+                <div class="input-group">
+                    <input type="date" id="eventDate" required>
+                    <label for="eventDate">Date of Event</label>
+                    <div class="glow-line"></div>
+                </div>
+    
+                <div class="recaptcha-container">
+                    <div class="g-recaptcha" data-sitekey="your-recaptcha-site-key"></div>
+                </div>
+    
+                <button type="submit" class="submit-button">
+                    <span>Submit Request</span>
+                    <div class="button-glow"></div>
+                </button>
+            </form>
+        </div>
+    </section>
+    
+
+    
+    <footer class="footer">
+        <div class="particles" id="particles"></div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h2 class="logo-text">VINH GIANG</h2>
+                    <p>Empowering individuals through innovative education and transformative experiences.</p>
+                </div>
+                <div class="footer-section links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="https://stageacademy.mykajabi.com/">Stage Academy</a></li>
+                        <li><a href="https://www.stageworkshop.live/virtual-masterclass">Virtual Masterclass-stage workshop</a></li>
+                        <li><a href="#https://www.stageworkshop.liv">In-person-Stage Workshop</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section links">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="#homepage">Home</a></li>
+                        <li><a href="#vinh-section">About Vinh</a></li>
+                        <li><a href="#welcomepage">Watch Vinh</a></li>
+                        <li><a href="#what-i-dopage">What Vinh Do?</a></li>
+                        <li><a href="#formSection">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact">
+                    <h3>Connect With Me</h3>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/aliterai" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@askvinh" class="social-icon" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://x.com/AskVinh" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/vinhgiang" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://web.facebook.com/askvinh?_rdc=1&_rdr#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="mailto:admin@vinhgiang.com.au" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+               
+                <p>&copy; <span id="year">2024</span> Vinh Giang. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+      
+
+    <script src="script.js"></script>
+</body>
+</html>
